@@ -7,16 +7,20 @@ Envío y recepción de mensajes en tiempo real.
 Notificaciones cuando un usuario se conecta o desconecta del chat.
 Requisitos Previos
 Tener instalado Node.js en tu sistema.
-Instalación y Ejecución
-Clona el repositorio en tu máquina local:
 
+Instalación y Ejecución
+
+Clona el repositorio en tu máquina local:
 git clone https://github.com/tu_usuario/chat_webscoket.git
-cd tu_repositorio
+
+cd chat_webscoket
 
 Instala las dependencias del proyecto:
 npm install
+
 Asegúrate de tener instalado el paquete ws (WebSocket):
 npm install ws
+
 Inicia el servidor:
 node server.js
 
