@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2f4f4f; /* Verde oscuro */
+  color: #f4f4f9;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#messageArea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  background-color: #466146; /* Fondo claro dentro del área de mensajes */
+}
+
+#messageInput {
+  width: 80%;
+  padding: 10px;
+}
+
+#sendButton {
+  padding: 10px 20px;
+}
